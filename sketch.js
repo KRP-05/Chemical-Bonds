@@ -32,6 +32,7 @@ function preload()
   d3pic=loadImage("O4.png")
   correctimg=loadImage("correct.png")
   wrongimg=loadImage("wrong.png")
+	b=loadImage("back.png")
 }
 
 function setup() {
@@ -43,7 +44,9 @@ function setup() {
   playbutton.scale=0.5
 
   back=createSprite(800,50,30,30)
+	back.addImage(b)
   back2=createSprite(800,100,30,30)
+	back2.addImage(b)
 
   //soundoff=createSprite(700,50,30,30)
   //soundoff.addImage(soundimg)
