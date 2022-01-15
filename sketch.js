@@ -351,11 +351,7 @@ function draw() {
   drawSprites();
   
   textSize(20)
- text(selectedA,1000,100)
- text(selectedB,1300,100)
- text(selectedC,1000,500)
- text(selectedD,1300,500)
- text(wrgcount,1400,100)
+ 
 }
 
 
