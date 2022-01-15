@@ -43,10 +43,12 @@ function setup() {
   playbutton.addImage(playimg)
   playbutton.scale=0.5
 
-  back=createSprite(800,50,30,30)
+  back=createSprite(800,90,30,30)
 	back.addImage(b)
-  back2=createSprite(800,100,30,30)
+  back.scale=0.3
+  back2=createSprite(800,140,30,30)
 	back2.addImage(b)
+  back2.scale=0.4
 
   //soundoff=createSprite(700,50,30,30)
   //soundoff.addImage(soundimg)
